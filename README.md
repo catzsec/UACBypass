@@ -8,14 +8,14 @@
 
 NoUAC is a .NET implementation of a known UAC bypass technique.
 <div align="center">
-<img src="https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/lol.gif?raw=true" width="350px"></img>
+<img src="https://github.com/catzsec/UACBypass/blob/main/Screenshots/lol.gif?raw=true" width="350px"></img>
 </div>
 
 
 ## 🚧  Screenshots 🚧 
 
-![Demo](https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/demo.gif?raw=true)
-![Screenshot](https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/example.png?raw=true)
+![Demo](https://github.com/catzsec/UACBypass/blob/main/Screenshots/demo.gif?raw=true)
+![Screenshot](https://github.com/catzsec/UACBypass/blob/main/Screenshots/example.png?raw=true)
 
 
 
