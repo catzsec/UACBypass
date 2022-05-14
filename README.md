@@ -22,13 +22,13 @@ NoUAC is a .NET implementation of a known UAC bypass technique.
 
 ## 🚧  Required 🚧 
 
-For building on your own, the following NuGet packages are needed 
+For building on your own, the following NuGet packages are needed
 
 * [`Fody`](https://www.nuget.org/packages/Fody/): "Extensible tool for weaving .net assemblies."
 * [`Costura.Fody`](https://www.nuget.org/packages/Costura.Fody/) "Fody add-in for embedding references as resources."
 * [`Microsoft.AspNet.WebApi.Client`](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Client/) "This package adds support for formatting and content negotiation to System.Net.Http. It includes support for JSON, XML, and form URL encoded data."
 
-
+To create your own DLL template, please see the DLL template directory
 
 ## 🚧  Installation 🚧 
 
